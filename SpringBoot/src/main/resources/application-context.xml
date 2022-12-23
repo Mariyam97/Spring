@@ -9,15 +9,10 @@
 
 	<!-- Setting up bean -->
 	
-	<bean id="uberGo"
-		class="com.gl.spring.core.UberGoDriver">
-	</bean>
+	<context:component-scan base-package="com.gl.spring.core"></context:component-scan>
 	
-	<bean id="passenger"
-		class="com.gl.spring.core.Passenger">
-		<constructor-arg name = "driver" ref = "uberGo">
-		</constructor-arg>
-	</bean>
+	
+	
 
 </beans>
 	

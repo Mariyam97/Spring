@@ -1,5 +1,8 @@
 package com.gl.spring.core;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class UberGoDriver {
 
 	
